@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is my first XML explamar slide -->
+
+<slideshow <!-- the root element -->
+
+title="My first Slide" <!-- attributes of the slideshow element -->
+date= "27-12-2020"
+author="Hugh Burgess"
+>
+
+<!-- TITLE SLIDE with nested elements -->
+ <slide type="all">
+   <title>Wake up to WonderWidgets!</title>
+ </slide>
+
+
+ <!-- OVERVIEW -->
+   <slide type="all">
+     <title>Overview</title>
+       <item>Why <em>WonderWidgets</em> are great</item> <!-- em creates an italics -->
+       <item>Who <em>buys</em> WonderWidgets</item>
+   </slide>
+
+</slideshow>
